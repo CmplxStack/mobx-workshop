@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["es2019", "dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "allowJs": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "sourceMap": false,
+    "incremental": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "build", "dist"]
+}
